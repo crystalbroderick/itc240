@@ -6,7 +6,7 @@ $temps = array(32, 47, 55, 30, 42, 39, 45);
 
 //calculate average temperature 
 //Rounded
-$tempavg = round(array_sum($temps) / count($temps), 2);
+$tempavg = round(array_sum($temps) / count($temps), 1);
 
 //display average
 echo "Average: $tempavg <br>";
