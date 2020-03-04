@@ -8,7 +8,7 @@ class Calc {
         $this->num1=$num1;
         $this->num2=$num2;
     }
-    public function numbers() {
+    public function Numbers() {
         echo "First Number: {$this->num1} <br> Second Number: {$this->num2} <Br>";
     }
     public function Add() {
@@ -31,7 +31,7 @@ class Calc {
 }
 
 $n1=new Calc(63,5);
-echo $n1->numbers();
+echo $n1->Numbers();
 echo $n1->Add();
 echo $n1->Subtract();
 echo $n1->Multiply();
