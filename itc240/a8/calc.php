@@ -1,5 +1,5 @@
 <?php
-/*Assignment: Write a class to represent a basic artithmetic operations Calculator. Your class should have the ability to add, subtract, multiply or divide two numbers. Be sure to add several tests for your Calculator class.*/
+
 class Calc {
     public $num1;
     public $num2;
@@ -29,14 +29,12 @@ class Calc {
         echo "{$this->num1} / {$this->num2} = $div" . "<br>";
     }     
 }
+
 $n1=new Calc(63,5);
 echo $n1->numbers();
 echo $n1->Add();
 echo $n1->Subtract();
 echo $n1->Multiply();
 echo $n1->Divide();
-    
- 
-
 ?>
 
