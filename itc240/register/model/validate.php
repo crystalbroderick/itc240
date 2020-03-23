@@ -126,8 +126,8 @@ class Validate {
             return;
         }
 
-        if (!preg_match("/^[a-zA-Z@\.0-9]*$/",$domain)) {
-            $field->setErrorMessage('No special characters in domain.');
+        if (!preg_match("/^[a-zA-Z@\.]*$/",$domain)) {
+            $field->setErrorMessage('Invalid domain.');
             return;
         }
 
